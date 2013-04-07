@@ -9,16 +9,16 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Your Name"
+BLOG_AUTHOR = "Dead Programmer's Society"
 BLOG_TITLE = "Dead Programmer's Society"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://www.cs.nmsu.edu/~dps"
+SITE_URL = "http://www.cs.nmsu.edu/~dps/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://nikola.ralsina.com.ar
 BLOG_EMAIL = "bjorkbat@nmsu.edu"
-BLOG_DESCRIPTION = "Here's the website for Dead Progs @ NMSU"
+BLOG_DESCRIPTION = "Here's the website for Dead Programmers @ NMSU"
 
 # Nikola is multilingual!
 #
@@ -57,6 +57,7 @@ SIDEBAR_LINKS = {
     DEFAULT_LANG: (
         ('/archive.html', 'Archives'),
         ('/categories/index.html', 'Tags'),
+        ('/galleries/', 'Galleries'),
     ),
 }
 
