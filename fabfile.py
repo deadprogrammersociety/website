@@ -4,10 +4,19 @@ from fabric.api import env, sudo, local
 from fabric.operations import put, run
 from fabric.context_managers import cd
 
+from fabric.colors import *
+
 def nikola_build():
     local('nikola build')
 
-def server():
+def cs():
+    print(red('Not implemented yet'))
+
+def serve():
+    print(red('The "serve" target is deprecated; please use razz instead'))
+    razz()
+
+def razz():
     env.hosts = ['razz.hotnudiegirls.com']
 
 def deploy():
