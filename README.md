@@ -34,12 +34,32 @@ and run:
 
     nikola new_post
 
-and follow the on-screen instructions. You can also edit the theme, add photos to the gallery, etc. You can rebuild the Website and check out how it looks on your local computer with:
+and follow the on-screen instructions. The format for post is reStructuredText, for which you can find a [primer](http://sphinx-doc.org/rest.html) and [reference manual](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) on the Web.
+
+You can also edit the theme, add photos to the gallery, etc. You can rebuild the Website and check out how it looks on your local computer with:
 
     nikola build
     nikola serve
 
-After the server starts, navigate to http://localhost:8000/
+After the server starts, navigate to [localhost:8000](http://localhost:8000/) to see what the website looks like.
+
+To commit your changes, type:
+
+    git status
+
+To see what files have changed. Type:
+
+    git add <filename>
+
+to add whatever files were changed and you want committed to git's index. To commit, run:
+
+    git commit
+
+And add an appropriate commit message. Once you're sure all your changes are good, push back to GitHub (this assumes you've setup your machine for working with GitHub):
+
+    git push origin master
+
+More information in the [Nikola Handbook](http://nikola.ralsina.com.ar/handbook.html).
 
 ## Deploy
 
