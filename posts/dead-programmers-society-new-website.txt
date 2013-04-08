@@ -1,9 +1,23 @@
-.. title: DPS
-.. slug: dps
+.. title: Dead Programmers Society new Website
+.. slug: dead-programmers-society-new-website
 .. date: 2013/04/05 19:18:10
 .. tags: 
 .. link: 
-.. description: 
+.. description: New Website powered by Nikola
 
 
-Write your post here.
+First post!
+
+Here is what embedded, highlighted source code looks like:
+
+.. code:: python
+
+    print("Hello world")
+
+Running on a `Raspberry Pi`__ somewhere.
+
+__ http://www.raspberrypi.org/
+
+.. slides::
+
+    /galleries/raspberry-pi.jpg
