@@ -70,3 +70,7 @@ To build & deploy the Website to the Raspberry Pi, run:
 To build & deploy the Website to the CS domain, run:
 
     fab cs deploy
+
+## Todo
+
+ * [GitHub Timeline Widget](https://github.com/jmealo/github-timeline-widget) — JavaScript widget that displays latest GitHub activity
