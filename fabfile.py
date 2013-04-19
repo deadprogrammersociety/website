@@ -6,6 +6,10 @@ from fabric.context_managers import cd
 
 from fabric.colors import *
 
+def nikola_upgrade():
+    print(red("You're running within a virtualenv, right? Please cancel this immediately if you're not!"))
+    local('pip install --upgrade nikola')
+
 def nikola_build():
     local('nikola build')
 
