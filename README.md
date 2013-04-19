@@ -2,6 +2,8 @@
 
 ## Setting up your system
 
+The below assumes you're using pip and virtualenv, for which [there is a good tutorial](http://dabapps.com/blog/introduction-to-pip-and-virtualenv-python/).
+
 On Ubuntu, install some packages:
 
     sudo aptitude install fabric python-virtualenv python-pip libxslt1-dev libxml2-dev git
