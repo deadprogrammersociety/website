@@ -32,7 +32,13 @@ Activate the virtualenv:
 
     source venv/bin/activate
 
-and run:
+First, make sure you're running the latest version of Nikola. Run:
+
+   fab nikola_upgrade
+
+within your virtualenv to upgrade Nikola and any of its dependencies.
+
+To create a new post:
 
     nikola new_post
 
