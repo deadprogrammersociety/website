@@ -14,7 +14,7 @@ Check out the code from Github:
 
     git clone git@github.com:deadprogrammersociety/website.git
 
-(This assumes you've SSH keys, etc setup w/ GitHub already). Next, enter the directory and setup a virtualenv:
+(This assumes you've SSH keys, etc setup w/ GitHub already. [See Github's tutorial](https://help.github.com/articles/set-up-git)). Next, enter the directory and setup a virtualenv:
 
     cd website
     virtualenv venv
